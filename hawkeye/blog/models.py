@@ -86,4 +86,4 @@ class Movie(models.Model):
     watch_date = models.DateTimeField('dated watched')
 
     def __str__(self):
-        return self.title + ", " + self.year
+        return self.title
