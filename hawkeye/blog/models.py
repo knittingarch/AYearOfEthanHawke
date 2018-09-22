@@ -34,6 +34,7 @@ class Director(models.Model):
     def __str__(self):
         return self.first_name + " " + self.last_name
 
+
 class Platform(models.Model):
     NETFLIX = 'netflix'
     HULU = 'hulu'
