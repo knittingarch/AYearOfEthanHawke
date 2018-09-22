@@ -1,0 +1,29 @@
+Movie
+	Title
+	Director (O2O)
+	Year
+	Rating
+	Review (O2O)
+	Platform (Choice Array)
+	Character
+	Runtime (Int Field)
+	Role (O2O)
+	Photo (Image Field)
+	Date Watched
+	Available (Boolean)
+
+Director
+	Name
+	(can have more than one director per movie)
+
+Review
+	Content
+	(only one review per movie)
+
+Platform
+	Type
+	Choose from Netflix, Amazon Prime, Hulu, Filmstruck, DVD/Blue Ray, Cable TV
+
+Role
+	Type
+	Choose from Supporting Actor, Leading Actor, Writer, Director
